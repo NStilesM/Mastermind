@@ -9,7 +9,35 @@ to illustrate guess and solution inputs. Also, if an input error occurs, the ter
 ---
 #### Application Output
 After inputting the solution, the application will show how many guesses it takes, the peg response after each guess,
-and the number of possible solutions remaining after each guess. Then, after finding the answer, the solution is revealed to the user. 
+and the number of possible solutions remaining after each guess. Then, after finding the answer, the solution is revealed to the user.
+
+
+```
+node app.js '1234'
+
+Guess 1
+1122
+Peg Count Black: 1 Peg Count White: 1
+208 Possible Solutions Remaining
+Guess 2
+2526
+Peg Count Black: 0 Peg Count White: 1
+39 Possible Solutions Remaining
+Guess 3
+1461
+Peg Count Black: 1 Peg Count White: 1
+10 Possible Solutions Remaining
+Guess 4
+1315
+Peg Count Black: 1 Peg Count White: 1
+3 Possible Solutions Remaining
+Guess 5
+1243
+Peg Count Black: 2 Peg Count White: 2
+1 Possible Solutions Remaining
+Number of Guesses: 5
+Is the answer? 1234
+```
 
 ---
 #### Further Notes
